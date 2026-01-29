@@ -45,20 +45,6 @@ const features = [
     }
 ];
 
-// SVG Icons as components
-const InstantTrainingIcon = () => (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M13 10V3L4 14h7v7l9-11h-7z" fill="#1E40AF" stroke="#1E40AF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-);
-
-const ZeroHallucinationIcon = () => (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="none" stroke="#1E40AF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-        <path d="M9 12l2 2 4-4" stroke="#1E40AF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-);
-
 export default function FeaturesSection() {
     return (
         <section id="features" className="py-20 lg:py-28 bg-white">
